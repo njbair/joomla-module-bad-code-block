@@ -14,7 +14,7 @@ Sometimes you need a bit of JavaScript on one or two pages and it doesn't make
 sense to hard-code it into your template. In those cases, it's common to use
 Joomla's Custom HTML module to add the page-specific code. The problem with
 mod_custom is that if someone edits the module with TinyMCE or another WYSIWYG
-editor, all the <script> tags will be eradicated.
+editor, all the &lt;script&gt; tags will be eradicated.
 
 the Bad Code Block module is intended to circumvent this problem by providing a
 strictly CodeMirror-based editor window with all content filtering disabled.
